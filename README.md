@@ -1,4 +1,4 @@
-# zabbix-deregister-lambda-on-ec2-terminatie
+# zabbix-deregister-lambda-on-ec2-terminate
 Deregister Ec2 Instance from Zabbix API when EC2 Terminate
 
 ## CloudWatch Event
