@@ -6,7 +6,7 @@ Deregister Ec2 Instance from Zabbix API when EC2 Terminate
 Use:
 
 * Service Name: EC2
-* Event Type: EC@ Instance State-change Notification
+* Event Type: EC2 Instance State-change Notification
 * Specific state(s): terminated
 * Any instance
 
