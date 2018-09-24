@@ -28,6 +28,9 @@ Use:
 }
 ```
 
+So call a Lambda Function (target)
+
+
 ## Lambda Function
 
 Import lambda function and Library, changing the vars bellow:
