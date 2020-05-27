@@ -34,13 +34,20 @@ So call a Lambda Function (target)
 
 ## Lambda Function
 
-Import lambda function and Library, changing the vars bellow:
+Import lambda function and Library:
 
+```zip -r zabbix_deregister.zip pyzabbix zabbix_request.py```
+upload the file `zabbix_deregister.zip` to lambda
+
+
+Change the vars bellow:
+
+PS: Needed create Environment VARIABLES
 
 ```
-server =
-username = 
-password =
+SERVER = https://xxxx.yyy.com
+USERNAME = username
+PASSWORD = pass
 ```
 
 ### Extras

@@ -1,11 +1,12 @@
 from pyzabbix import ZabbixAPI, ZabbixAPIException
 import boto3
-import sys
 import json
+import os
+import sys
 
-server = 'http://xxx.yyy.zzz.aaa'
-username = 'zabbix_api_user'
-password = 'password_password_password'
+server = os.environ['SERVER']
+username = os.environ['USERNAME']
+password = os.environ['PASSWORD']
 
 st_disabled = 1
 st_enabled = 0
